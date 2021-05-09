@@ -6,7 +6,11 @@ public class Main3 {
         int b=5;
 
         System.out.println("a = "+a+" b = "+b);
-        //todo swap
+
+        int c = a;
+        a = b;
+        b = c;
+
         System.out.println("a = "+a+" b = "+b);
     }
 }
