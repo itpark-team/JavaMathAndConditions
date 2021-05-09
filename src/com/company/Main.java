@@ -33,8 +33,11 @@ public class Main {
         //a/=10;
         //a=a/10;
 
-        int a=123;
-        System.out.println(a);
+        int a=5;
+
+        int b=++a;
+
+        System.out.println(a+"  "+b);
 
         /*
         int b = a/1;//123
@@ -46,8 +49,8 @@ public class Main {
         //int b = 123 % 1;//0
         //int b = 123 % 10;//3
         //int b = 123 % 100;//23
-        int b = 123 % 1000;//123
+        //int b = 123 % 1000;//123
 
-        System.out.println(b);
+        //System.out.println(b);
     }
 }
